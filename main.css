@@ -1,0 +1,277 @@
+      body {
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      header {
+          display: flex;
+          width: 100%;
+          flex-direction: row;
+          clip-path: polygon(0 0,
+              100% 0,
+              100% 100%,
+              0 calc(100% - 6vw));
+          background-color: black;
+          color: white;
+          height: 180px;
+          font-size: 1rem;
+      }
+
+      footer {
+          display: flex;
+          width: 100%;
+          flex-direction: row;
+          clip-path: polygon(0 0,
+              100% 6vw,
+              100% 100%,
+              0 100%);
+          background-color: black;
+          color: white;
+          height: 180px;
+          font-size: 1rem;
+      }
+
+      .heading {
+          flex: 1;
+          padding-left: 1rem;
+          max-width: 75%;
+          padding-right: 2rem;
+      }
+
+      .personal-info {
+          display: flex;
+          flex-direction: column;
+          padding-top: 2rem;
+          padding-right: 2rem;
+      }
+
+      .personal-info>p {
+          padding-bottom: 0.4rem;
+      }
+
+      p {
+          margin: 0;
+          padding-bottom: 0.2rem;
+      }
+
+      .name,
+      .personal-heading,
+      .field {
+          text-transform: uppercase;
+      }
+
+      .name {
+          font-size: 2rem;
+      }
+
+      .value {
+          border-left: 0.1rem solid rgb(199, 81, 36);
+          padding-left: 0.5rem;
+          display: inline;
+      }
+
+      .personal-heading,
+      .footer-heading {
+          font-size: 1rem;
+          color: rgb(199, 81, 36);
+      }
+
+      .footer-heading {
+          display: block;
+          padding-left: 1rem;
+      }
+
+      .icons {
+          color: rgb(199, 81, 36);
+          font-size: 1rem;
+          padding-top: 0.55rem;
+      }
+
+      .personal-info-icons {
+          display: flex;
+          flex-direction: column;
+          padding-top: 52px;
+          padding-right: 8px;
+      }
+
+      .phone-number {
+          padding-bottom: 0.15rem !important;
+      }
+
+      .prof-pic {
+          padding-left: 0.5rem;
+          padding-top: 0.5rem;
+          height: 90px;
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 0.5vw));
+      }
+
+      .body {
+          display: flex;
+          flex-direction: row;
+      }
+
+      .column-one, .column-two {
+          padding-left: 2rem;
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+      }
+
+      .column-two {
+          padding-left: 3rem;
+      }
+
+      .body-icons {
+          font-size: 1.8rem;
+      }
+
+      .footer-icons {
+          font-size: 1.8rem;
+          padding-right: 0.5rem;
+     }
+
+      .sub-heading {
+          font-size: 1.5rem;
+          text-transform: uppercase;
+          vertical-align: super;
+          padding-bottom: 14px;
+      }
+      .vl {
+          border-left: 2px solid rgb(199, 81, 36);
+          margin-left: 0.8rem;
+      }
+
+      .bullet-box {
+          width: 0.8rem;
+          height: 0.8rem;
+          border: 1px solid rgb(199, 81, 36);
+          margin-top: 0.6rem;
+          margin-left: 6.8px;
+          margin-bottom: 0.6rem;
+      }
+
+      .left-side {
+          margin-top: 6px;
+      }
+
+      .right-side {
+          margin-top: 12px;
+          padding-left: 2.2rem;
+      }
+
+      .experience,
+      .education,
+      .internship,
+      .skills,
+      .highlights,
+      .qualities {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .internship,
+      .skills,
+      .highlights,
+      .qualities {
+          padding-top: 1rem;
+      }
+
+      .content-heading {
+          color: rgb(199, 81, 36);
+          text-transform: uppercase;
+      }
+
+      .contents {
+          padding-top: 7px;
+      }
+
+      .highlight {
+          font-weight: bold;
+          display: inline;
+      }
+
+      .duration {
+          padding-left: 4rem;
+          color: rgb(199, 81, 36);
+      }
+
+      .skill > span {
+          height: 10px;
+          display: flex;
+          width: 250px;
+          padding-top: 4px;
+      }
+
+      .skill {
+          display: flex;
+          flex-direction: row;
+          margin-bottom: 5px;
+          justify-content: space-between;
+          padding-bottom: 2px;
+      }
+
+      .skill-set {
+          display: flex;
+          flex-direction: column;
+          padding-left: 2rem;
+          padding-right: 2rem;
+      }
+      .bar.active {
+          background-color: rgb(199, 81, 36);
+          border-radius: 50px 0 0 50px;
+      }
+
+      .bar.inactive {
+          background-color: rgb(231, 210, 203);
+          border-radius: 0 50px 50px 0;
+      }
+
+      .tool-set {
+          display: flex;
+          flex-direction: row;
+          padding-left: 2rem;
+      }
+
+      .tools {
+          padding-left: 2rem;
+      }
+      .circle{
+          position: relative;
+          top: 5px;
+          left: 5px;
+          text-align: center;
+          width: 70px;
+          height: 70px;
+          border-radius: 100%;
+          background-color: white;
+      }
+
+      .active-border {
+          position: relative;
+          text-align: center;
+          width: 80px;
+          height: 80px;
+          border-radius: 100%;
+          background-color: rgb(231, 210, 203);
+      }
+
+      .active-border-324 {
+          background-image:
+              linear-gradient(200deg, transparent 50%, rgb(199, 81, 36) 50%),
+              linear-gradient(150deg, rgb(199, 81, 36) 50%, transparent 50%);
+      }
+
+      .active-border-252 {
+          background-image:
+              linear-gradient(252deg, transparent 50%, rgb(199, 81, 36) 50%),
+              linear-gradient(90deg, rgb(199, 81, 36) 50%, transparent 50%);
+      }
+
+      .active-border-295 {
+          background-image:
+              linear-gradient(200deg, transparent 50%, rgb(199, 81, 36) 50%),
+              linear-gradient(100deg, rgb(199, 81, 36) 50%, transparent 50%);
+      }
+
+      .follow {
+          margin-top: 4rem;
+          margin-left: 8rem;
+      }
