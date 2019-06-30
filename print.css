@@ -1,15 +1,69 @@
 @media print {
     html {
+        width: 100%;
         height: 99%;
     }
-    body {
-        margin: 0;
+
+    .name {
+        font-size: 2rem;
     }
 
-    header {
-        clip-path: polygon(0 0,
-        100% 0,
-        100% 100%,
-        0 calc(100% - 4vw));
+    .prof-pic {
+        display: none;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column-one, .column-two {
+        width: 90%;
+        margin-top: 6px;
+    }
+
+    .follow {
+        display: none;
+    }
+
+    .header-follow {
+        padding-top: 0.5rem;
+        display: block;
+        padding-left: 2rem;
+    }
+
+    .footer-heading {
+        padding-right: 3.5rem;
+    }
+
+    .contents {
+        padding-top: 0;
+    }
+
+    .column-two {
+        padding-left: 2.2rem;
+        padding-right: 0;
+    }
+
+    .education {
+        padding-top: 8rem;
+    }
+
+    .skill-set {
+        flex-direction: row;
+    }
+
+    .skill > span {
+        width: 150px;
+    }
+
+    .skill-column-one, .skill-column-two {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .skill-column-one {
+        padding-right: 2rem;
     }
 }

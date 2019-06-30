@@ -5,13 +5,9 @@ header {
     display: flex;
     width: 100%;
     flex-direction: row;
-    clip-path: polygon(0 0,
-        100% 0,
-        100% 100%,
-        0 calc(100% - 6vw));
     background-color: black;
     color: white;
-    height: 180px;
+    padding-bottom: 1rem;
     font-size: 1rem;
 }
 
@@ -19,13 +15,8 @@ footer {
     display: flex;
     width: 100%;
     flex-direction: row;
-    clip-path: polygon(0 0,
-        100% 6vw,
-        100% 100%,
-        0 100%);
     background-color: black;
     color: white;
-    height: 180px;
     font-size: 1rem;
 }
 
@@ -34,6 +25,11 @@ footer {
     padding-left: 1rem;
     max-width: 75%;
     padding-right: 2rem;
+    padding-top: 1.5rem;
+}
+
+.summary {
+    line-height: 1.5rem;
 }
 
 .personal-info {
@@ -59,7 +55,7 @@ p {
 }
 
 .name {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .value {
@@ -100,9 +96,17 @@ p {
 
 .prof-pic {
     padding-left: 0.5rem;
-    padding-top: 0.5rem;
-    height: 90px;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 0.5vw));
+    padding-top: 1rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+.personal-details {
+    display: flex;
+}
+
+.header-follow {
+    display: none;
 }
 
 .body {
@@ -118,12 +122,13 @@ p {
 }
 
 .contents-body {
-border-left: 2px solid rgb(199, 81, 36);
-padding-left: 3.2rem;
-padding-bottom: 0.5rem;
-margin-left: 0.8rem;
-display: flex;
-flex-direction: column;
+    border-left: 2px solid rgb(199, 81, 36);
+    padding-left: 3.2rem;
+    padding-bottom: 0.5rem;
+    margin-left: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
 }
 
 
@@ -164,10 +169,6 @@ flex-direction: column;
     margin-right: 2.6rem;
 }
 
-.left-side {
-    margin-top: 6px;
-}
-
 .experience,
 .education,
 .internship,
@@ -176,13 +177,6 @@ flex-direction: column;
 .qualities {
     display: flex;
     flex-direction: column;
-}
-
-.internship,
-.skills,
-.highlights,
-.qualities {
-    padding-top: 1rem;
 }
 
 .content-heading {
@@ -244,9 +238,9 @@ flex-direction: column;
 }
 
 .tools {
-padding-left: 2rem;
-padding-top: 1rem;
-padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .circle{
     position: relative;
@@ -287,6 +281,7 @@ padding-bottom: 1rem;
 }
 
 .follow {
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-left: 8rem;
+    margin-bottom: 2rem;
 }
